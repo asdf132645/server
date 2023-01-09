@@ -55,7 +55,7 @@ app.post("/update", (req, res) => {
     res.send(result);
     console.log(err);
   });
-}); 
+});
 
 app.post("/detail", (req, res) => {
   const id = req.body.id;
